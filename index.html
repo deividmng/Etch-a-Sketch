@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/app.css" />
+  </head>
+  <body>
+
+    
+    <main>
+      <header>
+        <h1>Etch-a-Sketch </h1>
+      </header>
+  
+      <section class="section">
+        <aside class="buttons">
+          <input type="range"  min="2" max="99" id="rangeGrid" value="16"   onchange="inputGrid()">
+          <p id="valueGrid"> Current Size: 16 x 16 </p>
+          <!-- <button onclick="inputGrid()">Obtener Valor</button> -->
+        </aside>
+
+        <div id="container" class="container"></div>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

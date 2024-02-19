@@ -1,0 +1,32 @@
+header {
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  margin-right: 22px;
+  background-color: gainsboro;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+}
+
+.main {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}/*# sourceMappingURL=app.css.map */
