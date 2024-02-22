@@ -2,6 +2,8 @@
 ![v1.1](/assets/v1.1.png)
 This webpage is a digital version of the classic Etch-a-Sketch toy. It allows users to draw on a grid of square divs by hovering the mouse over them. The grid size can be changed dynamically based on user input. Part of the challenge was to render the grid using flexbox instead of css grid.
 
+[Link to the project](https://transcendent-dodol-a7b0b1.netlify.app/)
+
 ## Technologies Used
 - HTML
 - CSS (Flexbox)
